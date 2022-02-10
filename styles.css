@@ -14,6 +14,20 @@
       font-size: 20pt;
       color: rgb(202, 74, 74);
   }
+
+  .styled{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  .styled li{
+    padding-left: 1rem;
+    text-indent: -0.75rem;
+  }
+  .styled li::before{
+    content: "📌";
+  }  
   
   header {
     text-align: center;
@@ -115,6 +129,6 @@ footer {
 }
   
   #copyright {
-    color: rgb(50, 50, 205);
+    color: rgb(151, 30, 8);
     background-color: rgb(78, 154, 173);
   }
